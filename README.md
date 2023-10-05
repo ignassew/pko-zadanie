@@ -24,3 +24,8 @@ Aktualizuje dane użytkownika.
 Usuwa użytkownika.
 - Request: uuid w URL
 - Response: status code 200
+
+## Testowanie
+Zdecydowałem się na użycie pythona do testów, ponieważ w tym języku najłatwiej się pisze testy integracyjne. Unit testy normalnie bym pisał w rustcie
+1. Wymagane: python3, requests (`pip install requests`)
+2. ./test.py
